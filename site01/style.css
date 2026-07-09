@@ -30,7 +30,8 @@ header li {
     padding: 5px 10px;
 }
 
-header li:first-child, header li:hover {
+header li:first-child, 
+header li:hover {
     background-color: #ac0047;
 }
 
@@ -45,4 +46,50 @@ header ul {
 
 .laranja {
     background-color: #ca4e30;
+    height: 400px;
+}
+
+.larana p {
+    text-align: center;
+}
+
+.branca {
+    width: 100%;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+
+.box {
+    width: 310px;
+    margin: 0px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.mais {
+    background-color: #BF294D;
+    text-decoration: none;
+}
+
+a {
+    color:#fff;
+}
+
+.boxz {
+    width: 200px;
+    margin: 0px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 80px;
+    
 }
