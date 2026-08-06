@@ -64,3 +64,24 @@ header a {
     padding: 5px 10px;
     text-decoration: none;
 }
+
+.conteiner {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding: 35px;
+}
+
+.conteiner p {
+    padding: 50px;
+}
+
+.boxes {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.boxes p {
+    padding: 25px;
+}
