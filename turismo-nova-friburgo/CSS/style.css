@@ -3,8 +3,8 @@
     margin: 0;
 }
 
-header h1 {
-    text-align: center;
+body {
+     background-color: rgb(123, 123, 138);;
 }
 
 footer {
@@ -20,16 +20,6 @@ footer {
     justify-content: center;
     align-items: center;
     display: flex;
-}
-
-table {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-table, th, td {
-    border: 1px solid black;
-    padding: 2px;
 }
 
 header ul {
@@ -51,16 +41,18 @@ header li {
 
 header li:first-child, 
 header li:hover {
-    background-color: rgb(31, 31, 56);
+    background-color: rgb(107, 107, 134);
 }
 
 header h2 {
     text-align: center;
     padding-top: 25px;
+    color: rgb(107, 107, 134);
+    font-size: 30px;
 }
 
 header a {
-    color: #fff;
+    color:aliceblue;
     padding: 5px 10px;
     text-decoration: none;
 }
@@ -73,7 +65,9 @@ header a {
 }
 
 .conteiner p {
-    padding: 50px;
+    padding: 10px;
+    margin: 50px;
+    background-color:aliceblue;
 }
 
 .boxes {
@@ -84,4 +78,60 @@ header a {
 
 .boxes p {
     padding: 25px;
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(157, 157, 179);
+}
+
+header {
+    background-color: rgb(31, 31, 56);
+    margin-top: 0px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.boxes p {
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+.boxes {
+    margin: 25px;
+}
+
+.subtitulo {
+    margin: 25px;
+    text-align: center;
+    color:  rgb(31, 31, 56);
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    background-color: aliceblue;
+    border: 1px solid rgb(31, 31, 56);
+    padding: 2px;
+}
+
+td, th {
+    border: 1px solid rgb(31, 31, 56);
+    padding: 2px;
+}
+
+th {
+    background-color: rgb(31, 31, 56);
+    color: aliceblue;
+}
+
+td {
+    background-color: rgb(157, 157, 179);
+    color: rgb(31, 31, 56);
 }
