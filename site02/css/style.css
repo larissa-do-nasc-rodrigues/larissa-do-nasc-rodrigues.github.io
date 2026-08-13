@@ -1,6 +1,4 @@
-.one {
-    background-color: rgb(226, 226, 226);
-}
+
 
 @import url(font-awesome.min.css);
 @import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
@@ -110,3 +108,98 @@
 				background-color: #f2600b;
 			}
 
+header {
+	background-image: url(../images/bokeh_car_lights_bg.jpg);
+	background-size: cover;
+	text-align: center;
+	width: 500px;
+	margin-bottom: 0;
+}
+
+header h1 {
+	margin-top: 150px;
+}
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+
+.one {
+    background-color: rgb(245, 245, 245);
+
+	text-align: center;
+}
+
+.one h2 {
+	margin-top: 0;
+	padding-top: 50px;}
+
+body {
+	margin: 0;
+}
+
+header, footer {
+	color: #ffffff;
+}
+
+main {
+	color:hsl(0, 0, 0);
+}
+
+.logo {
+	margin: 0;
+	padding: 20px 0 0 30px;
+}
+
+header ul {
+	padding-left: 0;
+	list-style: none;
+	display: flex;
+	width: 500px;
+	border: #ffffff 1px solid;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+header li:last-child, header li :hover {
+	background-color: #ffffff;
+	border-radius: 25px;
+	padding: 5px 15px;
+	transition: 1s ;
+}
+
+header li:last-child a {
+	color: #000;
+}
+
+.botao {
+	border-radius: 25px;
+    padding: 10px 25px;
+	font-size: .7em;
+}
+
+.azul {
+	background-color: rgb(60, 173, 212);
+}
+
+.topo {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cards {
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 750px;
+	margin: 0 auto;
+}
+
+.card {
+	background-color: #ffffff;
+	width: 250px;
+	padding: 10px 15px;
+}
