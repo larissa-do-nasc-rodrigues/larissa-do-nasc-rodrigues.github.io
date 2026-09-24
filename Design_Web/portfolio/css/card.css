@@ -1,0 +1,24 @@
+.card {
+   border: 1px #333 solid;
+   border-radius: 5px;
+   box-shadow: 5px 5px 5px #333;
+   width: 300px;
+   height: 500px;
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: var(--fonts);
+}
+
+.card-ico {
+   border-radius: 50%;
+   background-color: 239, 242, 254;
+   color: 78, 71, 221;
+}
+
+:root {
+   
+}
