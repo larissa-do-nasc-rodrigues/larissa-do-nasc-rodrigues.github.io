@@ -1,0 +1,143 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+body {
+     background-color: rgb(123, 123, 138);;
+}
+footer {
+    background-color: rgb(31, 31, 56);
+    margin-top: 20px;
+    color:aliceblue;
+    text-align: center;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 8.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+header ul {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    width: 500px;
+    list-style: none;
+}
+header li {
+    padding: 10px;
+    margin-right: 15px;
+    border-radius: 5px;
+    background-color:  rgb(61, 61, 87);
+}
+header li:first-child, 
+header li:hover {
+    background-color: rgb(107, 107, 134);
+}
+header h2 {
+    text-align: center;
+    padding-top: 25px;
+    color: rgb(107, 107, 134);
+    font-size: 30px;
+}
+header a {
+    color:aliceblue;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.conteiner {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteiner p, #eventos {
+    padding: 10px;
+    margin: 20px;
+    background-color:aliceblue;
+}
+.conteiner h2 {
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(31, 31, 56);
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 25px;
+}
+.boxes {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.boxes p {
+    padding: 25px;
+}
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(157, 157, 179);
+}
+header {
+    background-color: rgb(31, 31, 56);
+    margin-top: 0px;
+}
+img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+.boxes p {
+    margin: 10px;
+    background-color: aliceblue;
+}
+.boxes {
+    margin: 25px;
+}
+.subtitulo {
+    margin: 25px;
+    text-align: center;
+    color:  rgb(31, 31, 56);
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    background-color: aliceblue;
+    border: 1px solid rgb(31, 31, 56);
+    padding: 2px;
+}
+td, th {
+    border: 1px solid rgb(31, 31, 56);
+    padding: 2px;
+}
+th {
+    background-color: rgb(31, 31, 56);
+    color: aliceblue;
+}
+td {
+    background-color: rgb(157, 157, 179);
+    color: rgb(31, 31, 56);
+}
+.conteiners {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+}
+.boxes {
+    margin: 10px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    background-color: rgb(31, 31, 56);
+    padding: 10px 35px 10px 35px;
+    color: aliceblue;
+}

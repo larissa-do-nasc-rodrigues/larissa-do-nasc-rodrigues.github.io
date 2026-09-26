@@ -1,0 +1,58 @@
+* {
+    font-family: 'Times New Roman', Helvetica, sans-serif;
+}
+
+.personal-profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.design-projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h1 {
+    color: #F6E0B6;
+    margin-top: 0px;
+}
+
+header, footer {
+    background-color: #3D1534;
+}
+
+footer {
+    height: 200px;
+}
+
+body {
+    background-color: #FFF4EB;
+    margin: 0%;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    width: 500px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #3D1534;
+}
+
+li {
+    background-color: #F6E0B6;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+header {
+    margin: 0px;
+}
