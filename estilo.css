@@ -17,6 +17,8 @@
 h1 {
     color: #F6E0B6;
     margin-top: 0px;
+    padding: 25px;
+    font-size: 3em;
 }
 
 header, footer {
@@ -24,11 +26,11 @@ header, footer {
 }
 
 footer {
-    height: 200px;
+    height: 100px;
 }
 
 body {
-    background-color: #FFF4EB;
+    background-color: #e8d7eb;
     margin: 0%;
 }
 
@@ -42,17 +44,76 @@ header ul {
     list-style: none;
 }
 
+.design-work-content, .design-exercises-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
 a {
     text-decoration: none;
     color: #3D1534;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+main a {
+    background-color: #A6BCC9;
 }
 
 li {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.3em;
     background-color: #F6E0B6;
-    padding: 5px;
+    padding: 15px;
     border-radius: 5px;
 }
 
 header {
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personal-profile aside {
+    width: 300px;
+}
+
+aside p {
+    width: 200px;
+    background-color: #A6BCC9;
+    color: #3D1534;
+    padding: 10px;
+}
+
+h2 {
+    background-color: #3E4B8E;
+    width: 400px;
+    text-align: center;
+    color: #FFF4EB;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    height: 200px;
+}
+
+.header-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main {
+    padding: 50px;
 }
