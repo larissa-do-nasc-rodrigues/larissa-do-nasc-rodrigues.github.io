@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Document</title>
+        <meta charset="utf-8">
+        <style>
+            div{
+                border: 1px solid #f00;
+                width: 500px;
+                height: 400px;
+                
+            }
+            h2 {
+                text-shadow: 5px 2px 4px #00f;
+            }
+
+            img:hover {
+                filter:brightness();
+                transform: rotate(3600deg);
+                transition: all 3s ease-out;
+            }
+
+            div:hover {
+                box-shadow: 5px 5px 25px #333,
+                            5px -5px 25px #333,
+                            -5px 5px 25px #333,
+                            -5px -5px 25px #333;
+            }
+            .button {
+                display: inline-block;
+                text-decoration: none;
+                color: #000;
+                background-color: #aaf;
+                padding: 10px 30px;
+                border-radius: 30px;
+                box-shadow: 3px 2px ;
+            }
+
+            .button:hover {
+                transform: scale(1.1);
+                background-color: #88f;
+                transition: all 500ms ease-in;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Teste sombras</h1>
+        <div>
+            <h2>lorem ipsum</h2>
+            <a class="button">Veja mais</a>
+        </div>
+        <img src="img/elzasoares.webp">
+    </body>
+</html>
