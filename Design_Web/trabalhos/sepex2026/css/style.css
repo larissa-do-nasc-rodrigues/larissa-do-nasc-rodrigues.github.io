@@ -9,8 +9,38 @@
 
 .button:hover{
     background-color: #7a5e91;
+    font-size: 1.1em;
     transform: scale(1.05);
-    color: #000;
+    color: #fff5f5;
     box-shadow: 3px 5px 5px #888;
     transition: all .2s;
+}
+
+@keyframes .card-destaque {
+    0% {transform: scale(.9);}
+    50% {transform: scale(1.05);}
+    100% {transform: scale(1);}
+}
+
+.programacao-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    transition: all .2s;
+    border: 1px solid #000;
+    box-shadow: 3px 5px 5px #888;
+    padding: 10px;
+}
+
+.card:hover {
+    transform: translateY(10px);
+    transform: scale(1.05);
+    box-shadow: 3px 5px 5px #505050;
+}
+
+main {
+    text-align: center;
 }
