@@ -1,3 +1,5 @@
+
+
 .button {
     background-color: #d0c0dd;
     padding: 10px 30px;
@@ -37,10 +39,22 @@
 
 .card:hover {
     transform: translateY(10px);
-    transform: scale(1.05);
     box-shadow: 3px 5px 5px #505050;
 }
 
 main {
     text-align: center;
+}
+
+@keyframes h1 {
+    opacity: 0;
+    transform: translateY ();
+}
+
+header li{
+    text-decoration: none;
+}
+
+header li:hover {
+    text-decoration: underline;
 }
