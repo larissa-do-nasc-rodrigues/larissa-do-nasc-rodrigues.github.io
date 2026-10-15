@@ -1,0 +1,169 @@
+@media (max-width:480px){
+    header, main, footer {
+        width: 100%;
+    }
+    body{
+        .programacao-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        }
+        .destaque {
+            animation: a;
+        }
+        h1 {
+            animation: a;
+        }
+    }
+
+}
+
+@media (min-width:481px) {
+     body{ 
+       .programacao-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        }
+    }
+}
+
+\* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    background-color: #EDE2CF;
+    padding: 10px 30px;
+    border-radius: 5px;
+
+    text-decoration: none;
+    color: #000;
+}
+
+.button:hover{
+    background-color: #D4BE9D;
+    font-size: 1.1em;
+    transform: scale(1.05);
+    color: #fff5f5;
+    box-shadow: 3px 5px 5px #888;
+    transition: all .2s;
+}
+
+.destaque {
+    animation: pulsar 2s infinite ease-in-out;
+}
+
+@keyframes pulsar {
+    0% {transform: scale(.9);}
+    50% {transform: scale(1.05);}
+    100% {transform: scale(1);}
+    }
+.card {
+    transition: all .2s;
+    border: 1px solid #000;
+    box-shadow: 3px 5px 5px #888;
+    padding: 10px;
+    background-color: #EDE2CF;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.03);
+
+    box-shadow: 3px 5px 5px #505050;
+}
+
+main {
+    text-align: center;
+}
+
+@keyframes entradaTitulo {
+    0% { opacity: 0; 
+        transform: translateY(-30px); 
+    } 
+    100% { opacity: 1;
+         transform: translateY(0); }
+}
+
+h1 {
+    animation: entradaTitulo 1.5s ease-out;
+}
+
+header a{
+    text-decoration: none;
+    color: #302622;
+    font-size: 1.2em;
+    
+}
+
+header a:hover {
+    text-decoration: underline;
+    transition: all 0.5s;
+}
+
+body {
+    background-color: #302622;
+    margin: 0;
+}
+
+header {
+    background-color: #67343A;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-title {
+    color: #EDE2CF;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    background-color: #9A704F;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+li:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+h1, h2, .inscricoes {
+    color: #EDE2CF;
+}
+
+.icon {
+     font-size: 2.2rem; 
+     color: #EDE2CF; 
+     margin-bottom: 15px; 
+     display: inline-block; 
+     animation: girar 10s; 
+} 
+
+@keyframes girar {
+     from { 
+        transform: rotate(0deg); }
+      to { 
+        transform: rotate(360deg); } 
+}
+
+/*
+#302622 marrom escuro
+#67343A vermelho carmim?
+#9A704F café com leite 
+#D4BE9D creme escuro
+#EDE2CF creme
+*/
