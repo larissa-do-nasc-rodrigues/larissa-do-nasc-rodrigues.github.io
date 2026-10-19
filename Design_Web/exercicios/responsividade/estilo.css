@@ -1,0 +1,23 @@
+@media (max-width:480px){
+    body{
+        background-color: blanchedalmond;
+    }
+}
+
+@media (min-width:481px) and (max-width:991px){
+     body{
+        background-color: rgb(230, 222, 180);
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px){
+     body{
+        background-color: rgb(168, 233, 219);
+    }
+}
+
+@media (min-width:1200px){
+     body{
+        background-color: rgb(243, 200, 186);
+    }
+}
