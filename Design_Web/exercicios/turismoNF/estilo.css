@@ -1,17 +1,74 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+main {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(123, 123, 138);
 }
 
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color:  rgb(31, 31, 56);
+    height: 200px;
+}
+
+h1 {
+    font-size: 3.5em;
+    padding: 10px;
+    color: rgb(123, 123, 138);
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cards img {
+    width: 480px;
+    padding: 10px;
+}
+
+.cards p {
+    width: 480px;
+    color: rgb(228, 228, 235);
+}
+
+.cards {
+    width: 510px;
+    background-color: rgb(31, 31, 56);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
 }
 
 ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(31, 31, 56);
+    background-color: rgb(123, 123, 138);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .carrossel {
@@ -71,4 +128,14 @@ ul {
 .hero-section {
     display: flex;
     justify-content: center;
+}
+
+@media (max-width:480px){
+    header, main, footer {
+        width: 100%;
+    }
+    body{
+        
+    }
+
 }
