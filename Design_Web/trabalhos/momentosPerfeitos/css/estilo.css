@@ -3,3 +3,92 @@
     background-size: cover;
     background-position: center;
 }
+
+.exibition {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(196, 196, 197);
+}
+
+.vote {
+    background-color: rgb(71, 72, 74);
+    color: aliceblue;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.conteiner {
+    margin: 50px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+}
+
+.people {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.username-review {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.username-review img{
+    width: 100px;
+    height: 50px;
+}
+
+.username-review p {
+    width: 500px;
+}
+
+.box {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box aside {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.boxes p {
+    border: 1px solid #575757;
+    padding: 10px 20px;
+}
+
+aside a {
+    background-color: #575757;
+    text-align: center;
+    color: aliceblue;
+}
