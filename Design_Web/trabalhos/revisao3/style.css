@@ -1,0 +1,78 @@
+/* 
+PARTE 1
+questão 1
+.banner img {
+    width: 100%;
+    filter: grayscale();
+    transition: all 5s ease-out;
+    box-shadow: 3px 5px 5px #000;
+}
+
+.banner img:hover {
+    filter: none;
+}
+
+questão 2
+.cards {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+} o flex-wrap pode ser importante em uma interface responsiva, pois garante que, na falta de espaço na tela, a linha quebra e continua abaixo, garantindo que a largura do site não será prejudicada
+
+questão 3
+.botao {
+    background-color: #2457a6;
+    transition: all 5s;
+}
+
+.botao {
+    background-color: blueviolet;
+    transform: scale(1.5);
+}
+
+questão 4
+@keyframes pulsar {
+    0% {
+        transform: scale(.9);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.destaque {
+    animation: pulsar 2s infinite;
+}
+
+questão 5
+.secao {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 600px) {
+    .secao {
+    grid-template-columns: repeat(1, 1fr);
+    }
+} 
+
+questão 6
+a)main
+b)nav
+c)
+d)
+e)
+*/
+
+/*Parte 2 - Desenvolvimento do componente principal*/
+.card-main {
+    box-shadow: 3px 5px 5px #000;
+}
+
+.card-main:hover {
+    transform: translateY(-20px);
+}
