@@ -1,0 +1,221 @@
+/* 
+PARTE 1
+questão 1
+.banner img {
+    width: 100%;
+    filter: grayscale();
+    transition: all 5s ease-out;
+    box-shadow: 3px 5px 5px rgb(0, 0, 0);
+}
+
+.banner img:hover {
+    filter: none;
+}
+
+questão 2
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+} 
+    O flex-wrap pode ser importante em uma interface responsiva, pois garante que, na falta de espaço na tela, a linha quebra e continua abaixo, garantindo que a largura do site não será prejudicada.
+
+questão 3
+.botao {
+    background-color: #2457a6;
+    transition: all 5s ease-out;
+}
+
+.botao {
+    background-color: blueviolet;
+    transform: scale(1.5);
+}
+
+questão 4
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.destaque {
+    animation: pulsar 2s infinite;
+}
+
+questão 5
+.secao {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 600px) {
+    .secao {
+    grid-template-columns: repeat(1, 1fr);
+    }
+} 
+
+questão 6
+a)main
+b)nav
+c).container
+d).row
+e).col-md-6
+*/
+
+/*Parte 2 - Desenvolvimento do componente principal*/
+.card-main {
+    box-shadow: 3px 5px 5px #000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    animation: pulsar infinite ease-in-out;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+
+@keyframes pulsar {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.05);}
+    100% {transform: scale(1);}
+    }
+
+.card-main:hover {
+    transform: translateY(-20px);
+    transition: all 5s ease-out;
+    filter: blur(80%);
+}
+
+.information-main {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+li a:hover {
+    transform: scale(1.1);
+    transition: all 2s ease-out;
+}
+
+@media (max-width:767px) {
+     main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+     }
+     .conteiner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin: 10px;
+     }
+}
+@media (min-width:768px) and (max-width:991px) {
+     main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+     }
+     .conteiner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 20px;
+        margin: 10px;
+        flex-wrap: wrap;
+     }
+}
+@media (min-width:992px) {
+     main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+     }
+     .conteiner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 20px;
+        margin: 10px;
+        flex-wrap: wrap;
+     }
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    margin: 30px;
+}
+
+.card-main {
+    max-width: 90%;
+}
+
+.card-main, .card {
+    padding: 10px;
+    border-radius: 25px;
+
+}
+
+.card {
+    max-width: 400px;
+    background-color: rgb(230, 230, 230);
+    box-shadow: 3px 5px 5px rgb(125, 134, 169);
+}
+
+* {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(41, 41, 78);
+    margin: 0px 0px 100px 0px;
+    padding: 20px;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+main a {
+    background-color: rgb(41, 41, 78);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    color: aliceblue;
+    width: 100px;
+}

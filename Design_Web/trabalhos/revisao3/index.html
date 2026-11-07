@@ -1,22 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <h1>Semana de Tecnologia</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                  <li class="nav-item active"><a href="#" class="nav-link">Início</a></li>
+                  <li class="nav-item active"><a href="#" class="nav-link">Programação</a></li>
+                  <li class="nav-item active"><a href="#" class="nav-link">Palestrantes</a></li>
+                  <li class="nav-item active"><a href="#" class="nav-link">Inscrição</a></li>
+              </ul>
+            </div>
+        </nav>
+    </header>
     <main>
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
         <div class="card-main">
             <p>Palestra Principal</p>
-            <img src="" alt="">
+            <img src="imagens/palestra_ia.jpg" alt="">
             <h2>Inteligência Artificial e o Futuro da Tecnologia</h2>
             <div>
                 <i></i>
                 <p>Prof. Dr. <strong>Carlos Mendes</strong></p>
             </div>
-            <div>
+            <div class="information-main">
                 <div>
                     <i></i>
                     <p>24/04 - 19h30</p>
@@ -26,9 +45,59 @@
                     <p>Auditório Central</p>
                 </div>
             </div>
-            <p>Descubra como a IA está transformando <br> o mundo e quais são os próximos desafios.</p>
+            <p>Descubra como a IA está transformando o mundo e quais são os próximos desafios.</p>
             <a href="#">Saiba mais</a>
         </div>
+        <section class="conteiner">
+            <div class="card card col-xs-12 col-md-6 col-lg-4 col-xl-6">
+                <img src="imagens/palestra_astronomia.jpg" alt="">
+                <h3>Palestra sobre astronomia</h3>
+                <p>Prof. Carl Sagan</p>
+                <p>25/04 - 17h40</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis vitae asperiores minima architecto porro iste? Iusto temporibus ipsum unde voluptates repudiandae, nostrum deserunt atque necessitatibus distinctio velit assumenda numquam quo.</p>
+                <a href="#">Saiba mais</a>
+            </div>
+            <div class="card card col-xs-12 col-md-6 col-lg-4 col-xl-6">
+                <img src="imagens/palestra_bemestar.jpg" alt="">
+                <h3>Palestra sobre saúde mental e bem-estar</h3>
+                <p>Prof. Franz Kafka</p>
+                <p>24/04 - 10h00</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur illum assumenda perspiciatis ut eveniet, aut cum dolores voluptatibus quidem eaque quas veritatis facilis? Iure enim magnam amet, odit impedit vel?</p>
+                <a href="#">Saiba mais</a>
+            </div>
+            <div class="card card col-xs-12 col-md-6 col-lg-4 col-xl-6">
+                <img src="imagens/palestra_educacao.jpg" alt="">
+                <h3>Palestra sobre educação e futuro da aprendizagem</h3>
+                <p>Prof. Virginia Woolf</p>
+                <p>25/04 - 9h30</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas repellat provident vero sunt eos accusamus, optio dolor architecto, quisquam blanditiis beatae aliquam animi nemo cum doloribus veniam unde incidunt officiis.</p>
+                <a href="#">Saiba mais</a>
+            </div>
+            <div class="card card col-xs-12 col-md-6 col-lg-4 col-xl-6">
+                <img src="imagens/palestra_musicaeculturabr.jpg" alt="">
+                <h3>Palestra sobre música e cultura brasileira</h3>
+                <p>Prof. Luiz Gonzaga</p>
+                <p>26/04 - 12h50</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatibus quibusdam in vero expedita explicabo deserunt alias eius, velit nemo molestias magni quo soluta delectus. Eveniet sequi amet sapiente adipisci!</p>
+                <a href="#">Saiba mais</a>
+            </div>
+            <div class="card card col-xs-12 col-md-6 col-lg-4 col-xl-6">
+                <img src="imagens/palestra_sustentabilidade.jpg" alt="">
+                <h3>Palestra sobre sustentabilidade e meio-ambiente</h3>
+                <p>Prof. Marina Silva</p>
+                <p>26/04 - 15h40</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae soluta nemo optio? Sit itaque minima hic, architecto qui sint pariatur eaque necessitatibus saepe, explicabo velit provident animi, sunt atque illum!</p>
+                <a href="#">Saiba mais</a>
+            </div>
+            <div class="card col-xs-12 col-md-6 col-lg-4 col-xl-6">
+                <img src="imagens/palestra_empreendedorismo.jpg" alt="">
+                <h3>Palestra sobre empreendedorismo e negócios</h3>
+                <p>Prof. Brás Cubas</p>
+                <p>26/04 - 18h30</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore praesentium atque reprehenderit blanditiis veniam quibusdam id autem nobis quisquam illo sapiente itaque omnis commodi est animi neque quasi, minus qui?</p>
+                <a href="#">Saiba mais</a>
+            </div>
+        </section>
     </main>
 </body>
 </html>
